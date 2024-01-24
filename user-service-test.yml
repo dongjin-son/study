@@ -1,9 +1,9 @@
 spring:
   datasource:
     driver: com.mysql.jdbc.Driver
-    url: dbUrl
-    username: test
-    password: test
+    url: jdbc:mysql://localhost:3306/msaportal?serverTimezone=Asia/Seoul&useSSL=false&characterEncoding=utf8&allowPublicKeyRetrieval=true&autoReconnect=true&validationQuery=select 1
+    username: msaportal
+    password: msaportal
 
 default:
   message: test profiles 에서 사용할 설정 정보들
