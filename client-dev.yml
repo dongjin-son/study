@@ -1,6 +1,9 @@
+database:
+  url: jdbc:mysql://${mysql.hostname:localhost}:3306/msaportal
+
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/dev?serverTimezone=Asia/Seoul&useSSL=false&characterEncoding=utf8&allowPublicKeyRetrieval=true
-    username: root
-    password: password
+    url: ${database.url}?serverTimezone=Asia/Seoul&useSSL=false&characterEncoding=utf8&allowPublicKeyRetrieval=true
+    username: msaportal
+    password: msaportal
