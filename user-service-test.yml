@@ -6,4 +6,5 @@ spring:
     password: msaportal
 
 default:
-  message: test profiles 에서 사용할 설정 정보들
+  message: 설정정보 변경합니다.
+  comment: 잘 나오나요?
