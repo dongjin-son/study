@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    driver: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/msaportal?serverTimezone=Asia/Seoul&useSSL=false&characterEncoding=utf8&allowPublicKeyRetrieval=true&autoReconnect=true&validationQuery=select 1
+    username: msaportal
+    password: msaportal
+
+default:
+  message: 설정정보 변경합니다.
+  comment: 잘 나오나요?
